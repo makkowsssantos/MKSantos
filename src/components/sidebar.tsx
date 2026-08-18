@@ -29,7 +29,7 @@ export default function SideBar() {
 
 
       {isOpen && (
-       <nav className="fixed inset-x-0 top-20.5 bottom-0 z-40 overflow-y-auto border-b border-slate-300 bg-white p-6 lg:hidden">
+       <nav className="mobile-menu fixed inset-x-0 top-20.25 bottom-0 z-40 overflow-y-auto border-b border-slate-300 bg-white p-6 lg:hidden">
           <ul className="flex flex-col gap-5">
             <li>
               <a
@@ -102,6 +102,8 @@ export default function SideBar() {
               >
                 Instagram
               </a>
+              <h2 className="text-sm sm:text-sm md:text-md mt-6 text-slate-700">Have a project in mind?</h2>
+              <h3 className="text-sm sm:text-sm md:text-md text-slate-700">Reach me here at <strong>makkowsssantos@gmail.com</strong></h3>
             </li>
           </ul>
         </nav>
