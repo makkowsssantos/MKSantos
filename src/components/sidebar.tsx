@@ -103,7 +103,7 @@ export default function SideBar() {
                 Instagram
               </a>
               <h2 className="text-sm sm:text-sm md:text-md mt-6 text-slate-700">Have a project in mind?</h2>
-              <h3 className="text-sm sm:text-sm md:text-md text-slate-700">Reach me here at <strong>makkowsssantos@gmail.com</strong></h3>
+              <h3 className="text-sm sm:text-sm md:text-md text-slate-700">Let's talk →<strong>makkowsssantos@gmail.com</strong></h3>
             </li>
           </ul>
         </nav>
