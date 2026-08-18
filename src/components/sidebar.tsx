@@ -29,7 +29,7 @@ export default function SideBar() {
 
 
       {isOpen && (
-       <nav className="fixed inset-x-0 z-40 max-h-[calc(100vh-81px)]  overflow-auto border-b border-slate-300 bg-white p-6 lg:hidden">
+       <nav className="fixed inset-x-0 top-20.5 bottom-0 z-40 overflow-y-auto border-b border-slate-300 bg-white p-6 lg:hidden">
           <ul className="flex flex-col gap-5">
             <li>
               <a
