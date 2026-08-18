@@ -28,7 +28,7 @@ export default function Education() {
         value="4 years"
       />
 
-      <h2 className="mt-8 border-b border-slate-400 pb-3 text-2xl sm:text-3xl">
+      <h2 className="mt-8 border-b border-slate-400 pb-3 text-lg sm:text-xl">
         Achievements
       </h2>
 

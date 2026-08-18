@@ -14,9 +14,9 @@ export default function educationCard({
 
   return(
     <div className={`p-6 ${className}`}>
-      <h1 className="text-xl">{title}</h1>
+      <h1 className="text-sm">{title}</h1>
       <h2 className="text-slate-600">{subtitle}</h2>
-      <p className="text-xl">{value}</p>
+      <p className="text-sm">{value}</p>
     </div>
   )
 

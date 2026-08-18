@@ -8,7 +8,7 @@ export default function SideBar() {
 
   return (
     <>
-      {/* Mobile Header */}
+
       <div className="sticky top-0 z-50 flex items-center justify-between border-b border-slate-300 bg-white p-4 lg:hidden">
         <a href="#hero" onClick={closeMenu}>
           <img
@@ -27,9 +27,9 @@ export default function SideBar() {
         </button>
       </div>
 
-      {/* Mobile Menu */}
+
       {isOpen && (
-       <nav className="fixed inset-x-0 top-81px z-40 max-h-[calc(100vh-81px)] overflow-y-auto border-b border-slate-300 bg-white p-6 lg:hidden">
+       <nav className="fixed inset-x-0 z-40 max-h-[calc(100vh-81px)]  overflow-auto border-b border-slate-300 bg-white p-6 lg:hidden">
           <ul className="flex flex-col gap-5">
             <li>
               <a
@@ -107,7 +107,6 @@ export default function SideBar() {
         </nav>
       )}
 
-      {/* Desktop Sidebar */}
       <aside className="sticky top-0 hidden h-screen border-r border-slate-300 p-5 lg:flex lg:flex-col lg:justify-between">
         <ul className="flex flex-col p-5">
           <li>
