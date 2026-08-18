@@ -37,7 +37,7 @@ export default function SideBar() {
                 onClick={closeMenu}
                 className="text-slate-500 hover:text-slate-950"
               >
-                Stack
+                Stack →
               </a>
             </li>
 
@@ -47,7 +47,7 @@ export default function SideBar() {
                 onClick={closeMenu}
                 className="text-slate-500 hover:text-slate-950"
               >
-                Experience
+                Experience →
               </a>
             </li>
 
@@ -57,7 +57,7 @@ export default function SideBar() {
                 onClick={closeMenu}
                 className="text-slate-500 hover:text-slate-950"
               >
-                Education
+                Education →
               </a>
             </li>
 
@@ -67,7 +67,7 @@ export default function SideBar() {
                 onClick={closeMenu}
                 className="text-slate-500 hover:text-slate-950"
               >
-                How I use AI
+                How I use AI →
               </a>
             </li>
 
@@ -82,7 +82,7 @@ export default function SideBar() {
                 rel="noreferrer"
                 className="text-slate-500 hover:text-slate-950"
               >
-                Facebook
+                Facebook →
               </a>
 
               <a
@@ -91,7 +91,7 @@ export default function SideBar() {
                 rel="noreferrer"
                 className="text-slate-500 hover:text-slate-950"
               >
-                GitHub
+                GitHub →
               </a>
 
               <a
@@ -100,10 +100,10 @@ export default function SideBar() {
                 rel="noreferrer"
                 className="text-slate-500 hover:text-slate-950"
               >
-                Instagram
+                Instagram →
               </a>
               <h2 className="text-sm sm:text-sm md:text-md mt-6 text-slate-700">Have a project in mind?</h2>
-              <h3 className="text-sm sm:text-sm md:text-md text-slate-700">Let's talk →<strong>makkowsssantos@gmail.com</strong></h3>
+              <h3 className="text-sm sm:text-sm md:text-md text-slate-700">Let's talk → <strong>makkowsssantos@gmail.com</strong></h3>
             </li>
           </ul>
         </nav>
