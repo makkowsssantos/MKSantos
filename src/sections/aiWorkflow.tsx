@@ -33,7 +33,7 @@ export default function AiWorkflow() {
         />
       </div>
 
-      <div className="mt-6 w-full rounded-lg bg-slate-200 p-4 text-left opacity-75 sm:w-fit">
+      <div className="mt-6 w-full rounded-lg bg-slate-200 dark:bg-slate-900 dark:text-white p-4 text-left opacity-75 sm:w-fit">
         <p className="text-sm sm:text-base">
           AI doesn't replace my development process. It strengthens it.
         </p>

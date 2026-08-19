@@ -14,7 +14,7 @@ export default function stackCard({
 
   return(
     <div className={`p-3 ${className}`}>
-      <h1 className="text-sm text-slate-700">{title}</h1>
+      <h1 className="text-sm text-slate-700 dark:text-slate-50">{title}</h1>
       <h2 className="text-slate-600 text-xs">{subtitle}</h2>
       <p className="text-xl">{value}</p>
     </div>

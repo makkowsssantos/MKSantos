@@ -1,4 +1,8 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+
 import Myprofile from "../img/myprofile.png";
+
 
 export default function Hero() {
   return (
@@ -30,7 +34,7 @@ export default function Hero() {
               href="#projects"
               className="text-slate-500 transition-colors hover:text-slate-950"
             >
-              projects
+              projects <FontAwesomeIcon icon={faUpRightFromSquare}/>
             </a>
           </strong>{" "}
           including a Church Prayer Request System, Research Website UI, and

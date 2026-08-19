@@ -13,8 +13,8 @@ export default function Stack() {
       <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
 
         {/* Front End */}
-        <div className="flex flex-col items-center justify-start rounded-lg border border-dashed border-slate-400 p-6">
-          <h2 className="mb-4 text-lg font-bold">Front End</h2>
+        <div className="flex flex-col items-center justify-start rounded-lg border border-dashed border-slate-400 p-6 ">
+          <h2 className="mb-4 text-lg font-bold dark:text-slate-500">Front End</h2>
 
           <StackCard title="React" subtitle="" value="" />
           <StackCard title="TypeScript" subtitle="" value="" />
@@ -23,7 +23,7 @@ export default function Stack() {
 
         {/* Back End */}
         <div className="flex flex-col items-center justify-start rounded-lg border border-dashed border-slate-400 p-6">
-          <h2 className="mb-4 text-lg font-bold">Back End</h2>
+          <h2 className="mb-4 text-lg font-bold dark:text-slate-500">Back End</h2>
 
           <StackCard title="Node.js" subtitle="" value="" />
           <StackCard title="Express.js" subtitle="" value="" />
@@ -31,21 +31,21 @@ export default function Stack() {
 
         {/* Database */}
         <div className="flex flex-col items-center justify-start rounded-lg border border-dashed border-slate-400 p-6">
-          <h2 className="mb-4 text-lg font-bold">Database</h2>
+          <h2 className="mb-4 text-lg font-bold dark:text-slate-500">Database</h2>
 
           <StackCard title="MySQL" subtitle="" value="" />
         </div>
 
         {/* Version Control */}
         <div className="flex flex-col items-center justify-start rounded-lg border border-dashed border-slate-400 p-6">
-          <h2 className="mb-4 text-lg font-bold">Version Control</h2>
+          <h2 className="mb-4 text-lg font-bold dark:text-slate-500">Version Control</h2>
 
           <StackCard title="Git" subtitle="" value="" />
         </div>
 
         {/* Development Tools */}
         <div className="flex flex-col items-center justify-start rounded-lg border border-dashed border-slate-400 p-6">
-          <h2 className="mb-4 text-center text-lg font-bold">
+          <h2 className="mb-4 text-center text-lg font-bold dark:text-slate-500">
             Development Tools
           </h2>
 
